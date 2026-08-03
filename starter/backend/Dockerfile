@@ -10,8 +10,7 @@ RUN apt-get update && \
   apt-get install -y \
   gcc \
   build-essential \
-  libpcre3 \
-  libpcre3-dev \
+  libpcre2-dev \
   libssl-dev \
   libffi-dev \
   && pip install pipenv
